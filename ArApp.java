@@ -29,7 +29,7 @@ public class ArApp {
                 System.out.println("BTU: "); 
                 String btu = sc.next();
                 System.out.println("Defeito?: ");
-                String bty = sc.next();
+                String btu = sc.next();
 
                 ArCondicionados.add(new Ar(modelo, codigo, marca, btu, codigo));
                     break;
