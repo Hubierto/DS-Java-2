@@ -1,10 +1,8 @@
 public class Programador extends Funcionario{
     
-    private double salarioBase = 5000.00;
-    private double bonificacao= 200.00;
-    private int projetos;
-
-    
+    private final double salarioBase = 5000.00;
+    private final double bonificacao= 200.00;
+    private final int projetos;
     
 
     public Programador(String nome, int projetos) {

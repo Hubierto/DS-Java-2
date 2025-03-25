@@ -5,9 +5,9 @@ public class FuncionarioApp {
     
         Gerente gerente = new Gerente("André");
 
-        Programador programador =  new Programador("André", 5);
+        Programador programador =  new Programador("Roberto", 5);
     
-        System.out.println("Salário do gerente: "+" R$" + gerente.calcularSalario());
-        System.out.println("Salário do Programador: "+ programador.calcularSalario());
+        System.out.println("\nNome do gerente: " + gerente.nome + " Salário do gerente: "+" R$" + gerente.calcularSalario());
+        System.out.println("Nome do programador: " + programador.nome + " Salário do Programador: "+ programador.calcularSalario());
     }
 }
