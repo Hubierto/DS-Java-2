@@ -1,7 +1,7 @@
 public class Retangulo extends Forma{
 
-    private double largura;
-    private double altura;
+    private final double largura;
+    private final double altura;
 
     public Retangulo(double largura, double altura) {
         this.largura = largura;

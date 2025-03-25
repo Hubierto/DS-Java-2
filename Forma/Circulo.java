@@ -1,6 +1,6 @@
 public class Circulo extends Forma{
 
-    private double raio;
+    private final double raio;
 
     public Circulo(double raio) {
         this.raio = raio;
