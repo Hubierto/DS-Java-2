@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class AnimalApp {
+public class animalApp {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in);) {
+        try (Scanner scanner = new Scanner(System.in)) {
             ArrayList<Animal> animais = new ArrayList<>();
 
             while (true) {
@@ -18,7 +18,7 @@ public class AnimalApp {
 
                 switch (opcao) {
                     case 1:
-                        System.out.print("Digite o tipo de animal (Cachorro ou Gato): ");
+                        System.out.print("Digite o tipo de animal (Cachorro, Gato ou Vaca): ");
                         String tipoAnimal = scanner.nextLine();
 
                         if (tipoAnimal.equalsIgnoreCase("Cachorro")) {
@@ -27,6 +27,9 @@ public class AnimalApp {
                         } else if (tipoAnimal.equalsIgnoreCase("Gato")) {
                             animais.add(new Gato());
                             System.out.println("Gato adicionado!");
+                        } else if (tipoAnimal.equalsIgnoreCase("Vaca")) {
+                            animais.add(new Vaca());
+                            System.out.println("Vaca adicionada!");
                         } else {
                             System.out.println("Tipo de animal inválido.");
                         }
@@ -56,8 +59,8 @@ public class AnimalApp {
                         System.exit(0);
                     default:
                         System.out.println("Opção inválida.");
+                }
             }
         }
     }
-}
 }
