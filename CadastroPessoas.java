@@ -9,7 +9,6 @@ public class CadastroPessoas {
         int opcao;
 
         while (true) {
-            // Exibir menu
             System.out.println("1 - Cadastrar pessoa");
             System.out.println("2 - Listar pessoas cadastradas");
             System.out.println("3 - Sair");
