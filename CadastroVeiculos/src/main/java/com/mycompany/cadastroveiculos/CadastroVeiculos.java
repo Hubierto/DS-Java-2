@@ -1,5 +1,4 @@
 /*
-
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
@@ -12,7 +11,6 @@ package com.mycompany.cadastroveiculos;
 public class CadastroVeiculos {
 
     public static void main(String[] args) {
-        new TelaCadastroVeiculo().setVisible(true);
+        System.out.println("Hello World!");
     }
 }
-
