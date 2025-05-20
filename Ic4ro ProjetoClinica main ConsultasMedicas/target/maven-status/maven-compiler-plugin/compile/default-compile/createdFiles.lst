@@ -1,0 +1,3 @@
+com\mycompany\consultasmedicas\modelo\Consulta.class
+com\mycompany\consultasmedicas\dao\ConsultaDAO.class
+com\mycompany\consultasmedicas\modelo\Paciente.class
